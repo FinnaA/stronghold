@@ -1,0 +1,23 @@
+{
+    "project": {
+        "id": "echo-template",
+        "name": "echo-template",
+        "folder": "/"
+    },
+    "settings": {
+        "language": "ru",
+        "spellingCorrection": false,
+        "classificationAlgorithm": "sts",
+        "timezone": "Europe/Moscow"
+    },
+    "intents": [],
+    "entities": [],
+    "enabledSystemEntities": [
+        "duckling.number",
+        "duckling.time",
+        "duckling.duration",
+        "duckling.phone-number",
+        "duckling.email",
+        "duckling.url"
+    ]
+}
