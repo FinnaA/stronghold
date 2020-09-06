@@ -1,0 +1,167 @@
+{
+    "catchAll": {
+        "phrases": [
+            "Извините, непонятно. Попробуйте дать команду:  \"воскреснуть\" или \"начать сначала\""
+        ]
+    },
+    "fulfillment": {
+        "settings": {
+            "default": {
+                "url": "https://citadell.herokuapp.com"
+            },
+            "channels": [
+                {
+                    "channelId": "81762080-test-81762080-rOP-2620799891",
+                    "url": "https://citadell.herokuapp.com"
+                },
+                {
+                    "channelId": "81762080-test-81762080-rOP-1487845191",
+                    "url": "https://citadell.herokuapp.com"
+                },
+                {
+                    "channelId": "81762080-1772_kopiya-81762080-nhk-152047769",
+                    "url": "https://citadell.herokuapp.com"
+                },
+                {
+                    "channelId": "81762080-1772_kopiya-81762080-nhk-2941189823",
+                    "url": "https://citadell.herokuapp.com"
+                },
+                {
+                    "channelId": "81762080-tsitadel_nachalo-81762080-tmI-92694624",
+                    "url": "https://citadell.herokuapp.com"
+                },
+                {
+                    "channelId": "81762080-tsitadel_nachalo-81762080-tmI-92694631",
+                    "url": "https://citadell.herokuapp.com"
+                }
+            ]
+        },
+        "actions": [
+            {
+                "state": "/newNode_275",
+                "action": "first_zahod",
+                "enabled": true
+            },
+            {
+                "state": "/newNode_358",
+                "action": "next_zahod",
+                "enabled": true
+            },
+            {
+                "state": "/newNode_226",
+                "action": "berries",
+                "enabled": true
+            },
+            {
+                "state": "/newNode_28",
+                "action": "pepel",
+                "enabled": true
+            },
+            {
+                "state": "/newNode_51",
+                "action": "volki",
+                "enabled": true
+            },
+            {
+                "state": "/newNode_252",
+                "action": "sword",
+                "enabled": true
+            },
+            {
+                "state": "/newNode_260",
+                "action": "salo",
+                "enabled": true
+            },
+            {
+                "state": "/newNode_106",
+                "action": "eat",
+                "enabled": true
+            },
+            {
+                "state": "/newNode_264",
+                "action": "sword",
+                "enabled": true
+            },
+            {
+                "state": "/newNode_266",
+                "action": "salo",
+                "enabled": true
+            },
+            {
+                "state": "/newNode_110",
+                "action": "eat",
+                "enabled": true
+            },
+            {
+                "state": "/newNode_112",
+                "action": "zombie",
+                "enabled": true
+            },
+            {
+                "state": "/newNode_117",
+                "action": "zombie",
+                "enabled": true
+            },
+            {
+                "state": "/newNode_118",
+                "action": "smeh",
+                "enabled": true
+            },
+            {
+                "state": "/newNode_214",
+                "action": "birds",
+                "enabled": true
+            },
+            {
+                "state": "/newNode_124",
+                "action": "dog",
+                "enabled": true
+            },
+            {
+                "state": "/newNode_218",
+                "action": "no_sword",
+                "enabled": true
+            },
+            {
+                "state": "/newNode_324",
+                "action": "cat",
+                "enabled": true
+            },
+            {
+                "state": "/newNode_278",
+                "action": "door",
+                "enabled": true
+            },
+            {
+                "state": "/newNode_280",
+                "action": "door",
+                "enabled": true
+            },
+            {
+                "state": "/newNode_194",
+                "action": "win",
+                "enabled": true
+            },
+            {
+                "state": "/newNode_153",
+                "action": "salo2",
+                "enabled": true
+            },
+            {
+                "state": "/newNode_270",
+                "action": "saray",
+                "enabled": true
+            },
+            {
+                "state": "/newNode_96",
+                "action": "saray",
+                "enabled": true
+            }
+        ]
+    },
+    "tariffLimit": {
+        "phrases": [
+            "Извините, работа временно приостановлена"
+        ]
+    }
+}
